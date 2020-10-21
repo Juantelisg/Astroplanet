@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/** >> welcome.html << **/
+
+
+.body-welcome {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+
+.header-welcome.html {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.texto-inicial {
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-inicial h1 {
+    font-size: 80px;
+    z-index: 100;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.ingresa{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    bottom: 150px;
+    border: 1px solid #056fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+}
+
+
+#video-welcome {
+
+   width: 100%;
+    
+}
+
+
+/** >>index.html<< **/
+
+
+.body-index.html {
+
+    background-color:whitesmoke;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: whitesmoke;
+    
+    background-color: #000000;
+   
+    background-image: url("C:/Coderhouse/multimedia/crop (2).jpg") 
+}
+
+
+
+
+#Nombre-pagina{
+    color: chocolate;
+    padding: 10px 14px;
+    font-size: 35px;
+    margin-left: 40px;
+    margin: inherit;
+    margin-left: 20px;
+}
+
+/** .nav-main{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+**/
+
+.header a{
+
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+    font-size: 28px;
+
+
+}
+
+
+
+.listas{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    margin: 0px;
+
+}
+
+
+
+
+.link1{
+    display: flex;
+    text-decoration: none;
+    color: #026fb8;
+    
+}
+
+.link2{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.link3{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.link4{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.link5{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.inicio-texto1{
+    text-align: center;
+}
+
+.inicio-texto2{
+
+    text-align: center;
+}
+
+
+.imagen1{
+    float: right;
+    margin-right: 40px;
+}
+
+.imagen2{
+    margin-left: 40px;
+}
+
+
+
+
+.titulo-tabla{
+    color: rgb(1, 226, 31);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.tabla {
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+th{
+    background-color: #0791E6;
+}
+
+#celdas1{
+    background-color: #E6B362;
+}
+
+#celdas2{
+    background-color: #c7c7c781;
+}
+
+#celdas3{
+    background-color: #EBB724;
+}
+
+.redes-sociales p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: darkorange;
+}
+
+
+.listas2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.instagram{
+    color: crimson;
+    font-size: 20px;
+}
+
+.facebook{
+    color: rgb(10, 122, 197);
+    font-size: 20px;
+}
+
+.youtube{
+    color: rgb(235, 6, 6);
+    font-size: 20px;
+}
