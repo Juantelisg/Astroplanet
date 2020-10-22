@@ -1,0 +1,229 @@
+.body-index.html {
+
+    background-color:whitesmoke;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: whitesmoke;
+    
+    background-color: #000000;
+   
+    background-image: url("C:/Coderhouse/multimedia/crop (2).jpg") 
+}
+
+#Nombre-pagina{
+    color: chocolate;
+    padding: 10px 14px;
+    font-size: 35px;
+    margin-left: 40px;
+    margin: inherit;
+    margin-left: 20px;
+}
+
+/** .nav-main{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+**/
+
+.header a{
+
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+    font-size: 28px;
+
+
+}
+
+
+
+.listas{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    margin: 0px;
+
+}
+
+
+
+
+.link1{
+    display: flex;
+    text-decoration: none;
+    color: #026fb8;
+    
+}
+
+.link2{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.link3{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.link4{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.link5{
+    
+    text-decoration: none;
+    color:#026fb8;
+}
+
+.inicio-texto1{
+    text-align: center;
+}
+
+.inicio-texto2{
+
+    text-align: center;
+}
+
+
+.imagen1{
+    float: right;
+    margin-right: 40px;
+}
+
+.imagen2{
+    margin-left: 40px;
+}
+
+
+
+
+.titulo-tabla{
+    color: rgb(1, 226, 31);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.tabla {
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+th{
+    background-color: #0791E6;
+}
+
+#celdas1{
+    background-color: #E6B362;
+}
+
+#celdas2{
+    background-color: #c7c7c781;
+}
+
+#celdas3{
+    background-color: #EBB724;
+}
+
+.redes-sociales p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: darkorange;
+}
+
+
+.listas2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.instagram{
+    color: crimson;
+    font-size: 20px;
+}
+
+.facebook{
+    color: rgb(10, 122, 197);
+    font-size: 20px;
+}
+
+.youtube{
+    color: rgb(235, 6, 6);
+    font-size: 20px;
+}
+
+/** tablas *//
+
+<section class="Suscripcion">
+
+        <div class="titulo-tabla"> 
+        <h3>CONOCE NUESTRA SUSCRIPCION Y OBTEN BENEFICIOS:</h3>
+        </div>
+
+        <!--TABLA DE SUSCRIPCIONES-->
+        <table class="tabla" border="Black">
+            <tr>
+                <th>PLANES</th>
+                <th>BENEFICIOS</th>
+                <th>PRECIOS</th>
+            </tr>
+            
+            <tr id="celdas1">
+                <td> · Bronce</td>
+                <td>
+                    - Descuentos hasta del 10% en productos Astroplanet. <br> 
+                    - 2 entradas mensuales a museos y planetarios. <br>
+                    - Regalos sorpresa dos veces al año.
+                </td>
+
+                <td> $15 por mes</td>
+            </tr>
+
+            <tr id="celdas2">
+                <td>· Plata</td>
+                <td>
+                    - Descuentos hasta del 20% en productos Astroplanet. <br>
+                    - 3 entradas mensuales a museos y planetarios. <br>
+                    - 1 entrada (Area General) a nuestros eventos anuales. <br>
+                    - Regalos sorpresa dos veces al año
+                </td>
+                <td> $25 por mes</td>
+            </tr>
+
+            <tr id="celdas3">
+                <td>· Oro (familiar)</td>
+                <td>
+                    - Descuentos hasta del 40% en todos los productos Astroplanet. <br>
+                    - 4 entradas semanales a museos y planetarios. <br>
+                    - 3 entradas (Area VIP) a nuestros eventos anuales. <br>
+                    - Regalos sorpresa 5 veces al año.  
+                </td>
+                <td> $50 por mes</td>
+            </tr>
+        </table>
+
+    </section>
