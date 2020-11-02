@@ -89,6 +89,7 @@
 
 .header-inicio a{
    
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
@@ -392,6 +393,7 @@
 
 .menu-universo {
 
+    flex-wrap: wrap;
     display: flex;
     justify-content: flex-end;
     border-bottom-right-radius: 15px;
@@ -554,6 +556,7 @@
 
 .menu-profesionales {
 
+    flex-wrap: wrap;
     display: flex;
     justify-content: flex-end;
     border-bottom-right-radius: 15px;
@@ -787,7 +790,9 @@
 
 .menu-contacto {
 
+
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     border-bottom-right-radius: 15px;
     padding-top: 20px;
@@ -805,7 +810,7 @@
     border: none;
     border-radius: none;
     font-size: 30px !important;
-    margin-right: 450px !important;
+    margin-right: 432px !important;
   
 
 
@@ -813,6 +818,7 @@
 
 
 .menu-contacto a{
+    
     
     text-decoration: none;
     list-style: none;
@@ -843,8 +849,9 @@
 .Section1-contacto {
 
     display: flex;
-    margin-left: 60px;
-
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 20px;
 
 }
 
@@ -880,6 +887,7 @@
 
 .menu-productos{
 
+    flex-wrap: wrap;
     display: flex;
     justify-content: flex-end;
     border-bottom-right-radius: 15px;
