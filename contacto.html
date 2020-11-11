@@ -5,52 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body class="body-contacto">
-    
+<div class="container-contacto">
     <header class="header-contacto">
-        <div class="divnav-contacto">
-            <nav class="nav-contacto">
-                <div class="itemscontainer-contacto">
-                    <ul class="menu-contacto">
-                        <div>
-                            <a class="link0-contacto" href="welcome.html">Astroplanet</a>
-                        </div>
+        <nav class="nav-contacto">
+            <ul class="menu">
+                <div>
+                    <a class="link0-contacto" href="welcome.html">Astroplanet</a>
+                </div>
                        
                     
-                        <li> 
-                            <a class="link1-contacto" href="inicio.html">Inicio</a>
-                        </li>
+                <li> 
+                    <a class="link1-contacto" href="inicio.html">Inicio</a>
+                </li>
                     
-                        <li>     
-                            <a class="link2-contacto" href="universo.html">Universo</a>
-                        </li>
+                <li>     
+                    <a class="link2-contacto" href="universo.html">Universo</a>
+                </li>
                     
-                        <li> 
-                            <a class="link3-contacto" href="profesionales.html">Profesionales</a>
-                        </li>                
+                <li> 
+                    <a class="link3-contacto" href="profesionales.html">Profesionales</a>
+                </li>                
                     
-                        <li>
-                            <a class="link4-contacto" href="productos.html">Productos</a>
-                        </li>
+                <li>
+                    <a class="link4-contacto" href="productos.html">Productos</a>
+                </li>
                     
-                        <li>
-                            <a class="link5-contacto" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div> 
+                <li>
+                    <a class="link5-contacto" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+                
+        </nav>
     </header>
 
     <h2 class="tituloSection1-contacto">Contacto</h2>
 
 
 
-    <section class="Section1-contacto">
+    <div class="Section1-contacto">
        
-            <fieldset class="formulario-contacto" style="width: 40%">
+            <fieldset class="formulario-contacto">
                 <legend>Contactanos</legend>
                 <form>
                     <label for="nombre">Nombre y Apellido:</label><br>
@@ -58,11 +57,10 @@
                 </form>
 
                 <form>
-                    <p></p>
-                    <label for="Email">Ingresa tu Email:</label><br>
+                    <label for="Email" style="margin-top: 5px;">Ingresa tu Email:</label><br>
                     <input type="email" name="Email" placeholder="Email" id="Email">
                 </form>
-
+           
                 <p>Sexo:</p>
                 <input type="radio" name="sexo" value="Hombre">
                 <label for="Hombre">Hombre</label>
@@ -71,8 +69,7 @@
                 <label for="Mujer">Mujer</label>
 
                 <form>
-                    <p></p>
-                    <label for="Estado-Civil">Estado Civil: </label>
+                    <label for="Estado-Civil" style="margin-top: 5px;">Estado Civil: </label>
                     <select name="Estado-Civil">
                         <option value="S">Soltero/a</option>
                         <option value="C">Casado/a</option>
@@ -80,11 +77,11 @@
                         <option value="V">Viudo/a</option>
                     </select>
                 </form>
-
+           
                 <form>
                     <p></p>
                     <label for="comentario">Dejanos tu comentario o consulta: </label><br>
-                    <textarea name="comentario" id="comentario" cols="50" rows="15" placeholder="Deja tu comentario"></textarea>
+                    <textarea name="comentario" id="comentario" cols="50" rows="8" placeholder="Deja tu comentario"></textarea>
                 </form>
 
                 <label for="check">¿Desea recibir informacion y promociones al correo?</label>
@@ -93,25 +90,19 @@
                 <input type="submit" value="Enviar Formulario">
                 <input type="reset" value="Restablecer Formulario">
             </fieldset>
-
-            <figure class="img-contacto">
-                <img src="multimedia/inicio.jpg" alt="img-contacto" width="730" height="520">
-            </figure>
-
-    </section>
-
-
-    <div class="titulo-footer">
-        <a href="">Sigueme en:</a> 
     </div>
-    
-    <section class="section3-profesionales">
-        <footer class="footer-profesionales">
-                              
-            
-            
-            <div class="redes-sociales"> 
 
+    <div class="imgFormulario">
+        <figure class="img-contacto">
+            <img src="multimedia/inicio.jpg" alt="img-contacto" width="730" height="520">
+        </figure>
+
+        <h1 style="color: red; text-align: center;">SIGUEME EN:</h1>
+    </div>   
+
+    
+        <footer class="footer">
+                              
                 <figure>
                     <img src="multimedia/ins2.jpeg" alt="instagram-img" width="80">
                 </figure>
@@ -123,15 +114,10 @@
                 <figure>
                     <img src="multimedia/in.png" alt="linkedin-img" width="85">
                 </figure>
-            </div>
-
-
-
+           
         </footer>
     
-    </section>
-
-
+</div>
 
 </body>
 </html>
