@@ -11,35 +11,39 @@
 
 <body class="body-contacto">
 <div class="container-contacto">
+    
     <header class="header-contacto">
         <nav class="nav-contacto">
+       
             <ul class="menu">
-                <div>
-                    <a class="link0-contacto" href="welcome.html">Astroplanet</a>
+                
+                <div class="tituloHeader">
+                    <a class="nav-link" href="welcome.html">Astroplanet</a>
                 </div>
                        
+                <div class="Itemsnav">
+                    <li> 
+                        <a class="nav-link" href="inicio.html">Inicio</a>
+                    </li>
                     
-                <li> 
-                    <a class="link1-contacto" href="inicio.html">Inicio</a>
-                </li>
+                    <li>     
+                        <a class="nav-link" href="universo.html">Universo</a>
+                    </li>
                     
-                <li>     
-                    <a class="link2-contacto" href="universo.html">Universo</a>
-                </li>
+                    <li> 
+                        <a class="nav-link" href="profesionales.html">Profesionales</a>
+                    </li>                
                     
-                <li> 
-                    <a class="link3-contacto" href="profesionales.html">Profesionales</a>
-                </li>                
+                    <li>
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
                     
-                <li>
-                    <a class="link4-contacto" href="productos.html">Productos</a>
-                </li>
-                    
-                <li>
-                    <a class="link5-contacto" href="contacto.html">Contacto</a>
-                </li>
+                    <li>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </div>   
             </ul>
-                
+       
         </nav>
     </header>
 
@@ -47,37 +51,49 @@
 
 
 
-    <div class="Section1-contacto">
-       
+    <div class="Section1-contacto" style="margin-left: 5px;">
+        <div class="container">
             <fieldset class="formulario-contacto">
                 <legend>Contactanos</legend>
+                <div style="display: flex; justify-content: space-between;">               
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre y Apellido:</label><br>
+                            <input type="text" class="form-control" name="nombre" placeholder="Escribe tu nombre" id="nombre">
+                        </div>
+                    </form>
+
+                    <div style="padding-top: 5px; padding-right: 10px;">
+                        <p>Sexo:</p>
+                        <input type="radio" name="sexo" value="Hombre">
+                        <label for="Hombre" style="margin-right: 10px;">Hombre</label>
+
+                        <input type="radio" name="sexo" value="Mujer">
+                        <label for="Mujer">Mujer</label>
+                    </div>
+                </div> 
+            <div style="display: flex; justify-content: space-between;">    
                 <form>
-                    <label for="nombre">Nombre y Apellido:</label><br>
-                    <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre">
+                    <div class="form-group">
+                        <label for="Email" style="margin-top: 5px;">Ingresa tu Email:</label><br>
+                        <input type="email" class="form-control" name="Email" placeholder="Email" id="Email">
+                    </div>
                 </form>
-
-                <form>
-                    <label for="Email" style="margin-top: 5px;">Ingresa tu Email:</label><br>
-                    <input type="email" name="Email" placeholder="Email" id="Email">
-                </form>
-           
-                <p>Sexo:</p>
-                <input type="radio" name="sexo" value="Hombre">
-                <label for="Hombre">Hombre</label>
-
-                <input type="radio" name="sexo" value="Mujer">
-                <label for="Mujer">Mujer</label>
-
+                
+               
+                <div style="margin-left: 50px;">
                 <form>
                     <label for="Estado-Civil" style="margin-top: 5px;">Estado Civil: </label>
+                
                     <select name="Estado-Civil">
-                        <option value="S">Soltero/a</option>
-                        <option value="C">Casado/a</option>
-                        <option value="D">Divorciado/a</option>
-                        <option value="V">Viudo/a</option>
+                        <option class="dropdown-item" value="S">Soltero/a</option>
+                        <option class="dropdown-item" value="C">Casado/a</option>
+                        <option class="dropdown-item" value="D">Divorciado/a</option>
+                        <option class="dropdown-item" value="V">Viudo/a</option>
                     </select>
                 </form>
-           
+                </div>  
+            </div> 
                 <form>
                     <p></p>
                     <label for="comentario">Dejanos tu comentario o consulta: </label><br>
@@ -86,18 +102,19 @@
 
                 <label for="check">¿Desea recibir informacion y promociones al correo?</label>
                 <input type="checkbox" name="check">
-                <p></p>
-                <input type="submit" value="Enviar Formulario">
-                <input type="reset" value="Restablecer Formulario">
+                
+                <input class="btn btn-primary" style="transition: 1.5s;" type="submit" value="Enviar Formulario">
+                <input class="btn btn-danger"  type="reset" value="Restablecer Formulario" style="margin-left: 10px; transition: 1.5s;" >
+                
             </fieldset>
-    </div>
-
+        </div>   
+    </div>            
     <div class="imgFormulario">
         <figure class="img-contacto">
-            <img src="multimedia/inicio.jpg" alt="img-contacto" width="730" height="520">
+            <img src="multimedia/inicio.jpg" alt="img-contacto" width="730" height="520" style="border-style: black groove; border-radius: 10px; margin-right: 20px; margin-top: 10px;">
         </figure>
 
-        <h1 style="color: red; text-align: center;">SIGUEME EN:</h1>
+        <h1 style="color: red; text-align: center; margin-top: 117px; border-bottom: solid darkblue;">SIGUEME EN:</h1>
     </div>   
 
     
@@ -116,7 +133,7 @@
                 </figure>
            
         </footer>
-    
+     
 </div>
 
 </body>
