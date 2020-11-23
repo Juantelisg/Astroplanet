@@ -56,9 +56,8 @@
 .footer {
 
     display: flex;
-    justify-content: space-around;
     margin: 4px;
-    background-color: white;
+    background-color:#101113;
     border: 4px groove;
     border-radius: 10px;
     padding-top: 10px;
@@ -103,7 +102,7 @@
 
 @media (min-width: 900px){
 
-/*-------------------------------------INICIO.HTML--------------------------------------*/
+/*-------------------------------------INICIO.HTML 900PX--------------------------------------*/
     .container-inicio
     {
         background-color: #101113 ;
@@ -199,7 +198,7 @@
 @media (max-width: 899px)
 {
     
-/*-------------------------------------INICIO.HTML--------------------------------------*/
+/*-------------------------------------INICIO.HTML 899PX--------------------------------------*/
             .container-inicio
             {
                 background-color: #101113 ;
@@ -269,12 +268,237 @@
 }
 
 
+/*-------------------------------------UNIVERSO.HTML 900PX--------------------------------------*/
 
-/*-------------------------------------CONTACTO--------------------------------------*/
 
+@media (min-width: 900px)
+{
+
+    .container-universo
+    {
+        background-color: #111418 ;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+        "header header"
+        "titulo-1 titulo-1"
+        "widget-1 widget-1"
+        "titulo-2 titulo-2"
+        "widget-2 widget-2"
+        "titulo-3 titulo-3"
+        "widget-3 widget-3"
+        "footer footer";
+        margin: 0px auto;
+        gap: 5px;
+    
+    }
+
+    .header-universo
+    {
+
+        grid-area: header;
+
+
+    }
+
+    .footer{
+        
+        grid-area: footer;
+
+    }
+
+    .titulo-section1-universo
+    {
+        grid-area: titulo-1;
+    }
+
+    .section1-universo
+    {
+        grid-area: widget-1;
+       
+    }
+
+    .titulo-section2-universo
+    {
+        grid-area: titulo-2;
+
+    }
+
+    .section2-universo
+    {
+        grid-area: widget-2;
+        
+    }
+
+    .titulo-section3-universo
+    {
+       grid-area: titulo-3;
+    }
+
+    .section3-universo
+    {
+
+        grid-area: widget-3;
+
+    }
+
+
+
+}
+
+/*-------------------------------------PROFESIONALES.HTML 900PX--------------------------------------*/
+
+@media (min-width: 900px)
+{
+
+    .container-profesionales
+    {
+        background-color: #111418 ;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+        "header header"
+        "titulo-1 titulo-1"
+        "widget-1 widget-2"
+        "widget-3 widget-4"
+        "footer footer";
+        margin: 0px auto;
+        gap: 5px;
+    
+    }
+
+    .header-profesionales
+    {
+
+        grid-area: header;
+
+
+    }
+
+    .footer{
+        
+        grid-area: footer;
+
+    }
+
+    .tituloSection1-profesionales
+    {
+        grid-area: titulo-1;
+    }
+
+    .div1Section1-profesionales
+    {
+        grid-area: widget-1;
+       
+    }
+
+    
+
+    .div2Section1-profesionales
+    {
+        grid-area: widget-2;
+        
+    }
+
+    .div1Section2-profesionales
+    {
+        grid-area: widget-3;
+
+    }
+
+    .div2Section2-profesionales
+    {
+       grid-area: widget-4;
+    }
+
+   
+}
+
+
+
+/*-------------------------------------PRODUCTOS.HTML 900PX--------------------------------------*/
+
+@media (min-width: 900px)
+{
+
+    .container-productos
+    {
+        background-color: #111418 ;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+        "header header"
+        "titulo-1 titulo-1"
+        "widget-1 widget-1"
+        "widget-2 widget-2"
+        "widget-3 widget-3"
+        "footer footer";
+        margin: 0px auto;
+        gap: 5px;
+    
+    }
+
+    .header-productos
+    {
+
+        grid-area: header;
+
+
+    }
+
+    .footer{
+        
+        grid-area: footer;
+
+    }
+
+    .tituloSection1-productos
+    {
+        grid-area: titulo-1;
+    }
+
+    .section1-productos
+    {
+        grid-area: widget-1;
+       
+    }
+
+    
+
+    .section2-productos
+    {
+        grid-area: widget-2;
+        
+    }
+
+    .section3-productos
+    {
+        grid-area: widget-3;
+
+    }
+
+    
+
+   
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px)
+/*-------------------------------------CONTACTO.HTML 900PX--------------------------------------*/
+{
     .container-contacto
     {
-        background-color: #101113 ;
+        background-color: #111418 ;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, auto);
@@ -321,6 +545,63 @@
 
 }
 
+/*-------------------------------------CONTACTO.HTML 899PX--------------------------------------*/
+
+@media (max-width: 899px)
+
+
+{
+    .container-contacto
+    {
+        background-color: #111418 ;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, auto);
+        grid-template-areas:
+        "header header"
+        "titulo titulo"
+        "widget-1 widget-1"
+        "widget-2 widget-2"
+        "footer footer";
+        margin: 0px auto;
+        gap: 5px;
+    
+    }
+
+    .header-contacto
+    {
+
+        grid-area: header;
+
+
+    }
+
+    .tituloSection1-contacto
+    {
+        grid-area: titulo;
+    }
+
+    .formulario
+    {
+        grid-area: widget-1;
+
+       
+    }
+
+    .imgFormulario
+    {
+        grid-area: widget-2;
+        text-align-last: center;
+     
+        
+    }
+
+    .formulario-contacto
+    {
+        width: 100%;
+    }
+
+}
 
 /*----------------------------------------------- welcome.html--------------------------------------- **/
 
@@ -666,7 +947,7 @@
     .footer-inicio {
 
         display: flex;
-        justify-content: space-around;
+       
         margin: 4px;
         background-color: white;
         border: 4px groove;
@@ -1397,7 +1678,7 @@
 
 
 
-/**------------Section1-Div 2-----------**/
+/**------------Section1-Div 2-----------**
 
 .div2Section1-profesionales {
 
@@ -1410,6 +1691,7 @@
 
 
 }
+*/
 
 .imgDiv2Section1-profesionales {
 
