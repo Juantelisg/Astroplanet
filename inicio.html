@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body class="body-inicio" >
     
@@ -23,17 +23,18 @@
         <nav class="nav-inicio">
             <ul class="menu" style="margin-bottom: 0 !important;">
                 
-                <div class="tituloHeader">
-                    <a class="nav-link" href="welcome.html">Astroplanet</a>
-                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <label class="logo">AstroplanetX</label>
 
                        
                 <div class="Itemsnav">
-
-                   
-
+                    
                     <li> 
-                        <a class="nav-link" href="inicio.html">Inicio</a>
+                        <a id="active" class="nav-link" href="inicio.html">Inicio</a>
                     </li>
                     
                     <li>     
@@ -54,7 +55,7 @@
                 </div>   
             </ul>
         </nav>
-    </header> 
+    </header>    
 
 
     <main class="main-inicio">
@@ -82,7 +83,7 @@
         <div class="card-body">
           <h4 class="card-title">Universo</h4>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, non!</p>
-          <a href="universo.html" class="btn btn-primary">See Profile</a>
+          <a href="universo.html" class="btn btn-primary">Visitar</a>
         </div>
     </div>
     
@@ -92,7 +93,7 @@
         <div class="card-body">
           <h4 class="card-title">Productos</h4>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid deleniti voluptatem labore. Ex, obcaecati mollitia.</p>
-          <a href="productos.html" class="btn btn-primary">See Profile</a>
+          <a href="productos.html" class="btn btn-primary">Visitar</a>
         </div>
     </div>
     
@@ -126,12 +127,3 @@
 
 
 
-<!-- <article class="profesionales-inicio">
-    <figure>
-        <img class="section2img-inicio" src="multimedia/carl.jpg" alt="collage" width="400" height="360"/> 
-    </figure>
-
-    <div class="section2-url-inicio">
-        <a href="profesionales.html"  class="btn btn-primary" style="transition: 1.5s;">VAMOS!</a>
-    </div>
-</article> --> 
