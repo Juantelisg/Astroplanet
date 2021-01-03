@@ -6,41 +6,22 @@
 
 @media (min-width: 900px){
 
-    .checkbtn{
-        display: none;
-    }
-
-
-}
-
-@media (max-width 899px){
-
-    .menu{
-        flex-wrap: wrap;
-        display: block;
-    }
-
-    .menu li{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translate(100%);
-    }
-
-    #check:checked ~ li{
+   #burger{
        display: none;
-    }
+   }
+
+   #demo{
+       display: none;
+   }
+
 
 }
+
+
+
 
 .menu{
-    
+
     text-decoration: none;
    
     display: flex;
@@ -51,6 +32,7 @@
     background-color: #101113;
     border-top-color:  #101113;
     
+  
 
 
 }
@@ -84,18 +66,8 @@
     padding: 1px 45px;
 }
 
-#check{
-    display: none;
-}
 
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    right: 10px;
-    line-height: 54px;
-    cursor: pointer;
-}
+
 
 .Itemsnav
 {
@@ -119,7 +91,7 @@
 .frase-inicio{
 
     position: absolute;
-    top: 216px;
+    top: 300px;
 
 
 }
@@ -136,7 +108,7 @@
     font-size: 35px;
 
 }
-/*#3065cfcc*/
+
 
 
 .frase-inicio p {
@@ -151,11 +123,16 @@
 }
 
 
+#burger{
+    position: absolute;
+    right: 30px;
+    top: 24px;
+    cursor: pointer;
+}
 
 
 
-
-/*-------------------------------------INICIO.HTML 769PX--------------------------------------*/
+/*-------------------------------------INICIO.HTML 900PX--------------------------------------*/
 
 @media (min-width: 900px){
 
@@ -285,26 +262,32 @@
            
             }
 
+            .Itemsnav{
+                display: none;
+            }
+
+            .logo{
+                font-size: 30px;
+            }
+
+            
     
             .main-inicio
             {
         
-               
+                display: none;
                 background-color: #161B2E;
                 grid-area: main / main / main / main;
                
         
             }
             
+            
+
+
             .frase-inicio{
-                
-                top: 350px;
-            }
 
-
-            .frase-inicio h1{
-
-               font-size: 25px;
+               display: none;
               
             }
         
@@ -913,6 +896,8 @@
 
     }
 
+   
+
     .tituloSection1-contacto
     {
         grid-area: titulo;
@@ -1137,16 +1122,6 @@
     border-top-color:  #101113;
 }
 
-.link0-universo  {
-
-    border: none;
-    border-radius: none;
-    font-size: 30px !important;
-    margin-right: 450px !important;
-  
-
-
-}
 
 .menu-universo a{
     
@@ -1276,11 +1251,7 @@
 
 /**---------------------------------Profesionales.html---------------------------**/
 
-.body-profesionales{
 
-
-    background-color: #e7eaed57;
-}
 
 
 
@@ -1316,77 +1287,17 @@
     background-color:  #101113;
 }
 
-.imgDiv1Section1-profesionales {
-
-    
-    object-fit: cover;
 
 
 
-}
-
-.articleSection1-profesionales p {
-
-    padding: 10px;
-    color:  #9D1C1F;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    
-
-
-}
-
-.urlDiv1Section1-profesionales{
-
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    border: 1px groove;
-    border-radius: 10px;
-    width: 100px;
-    margin: 20px;
-    margin-left: 155px;
-    font-family: 'Lato', sans-serif;
-}
 
 
 
-.imgDiv2Section1-profesionales {
-
-    
-    object-fit: cover;
-  
 
 
 
-}
-
-.div2Section1-profesionales p {
-
-    padding: 10px;
-    color:  #9D1C1F;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
 
 
-
-}
-
-.urlDiv2Section1-profesionales{
-
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    border: 1px groove;
-    border-radius: 10px;
-    width: 100px;
-    margin: 20px;
-    margin-left: 165px;
-    font-family: 'Lato', sans-serif;
-
-}
 
 
 
@@ -1394,57 +1305,12 @@
 /**---------------------------------section2-profesionales---------------------**/
 
 
-.section2-profesionales {
-    
-    display: flex;
-    margin: 30px;
-
-}
-
-.div1Section2-profesionales {
-
-}
 
 
 
-.articleSection2-profesionales {
 
-    margin-left: 10px;
-    text-align: center;
-    border: 2px solid;
-    border-radius: 10px;
-    background-color:  #101113;
 
-}
 
-.articleSection2-profesionales p {
-
-    padding: 10px;
-    color:  #9D1C1F;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-}
-
-.imgDiv1Section2-profesionales {
-
-    object-fit: cover;
-
-}
-
-.urlDiv1Section2-profesionales {
-
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    border: 1px groove;
-    border-radius: 10px;
-    width: 100px;
-    margin: 20px;
-    margin-left: 155px;
-    font-family: 'Lato', sans-serif;
-
-}
 
 /**-----------------------------------contacto.html-------------------------**/
 
@@ -1454,16 +1320,6 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
 
 .tituloSection1-contacto {
     color: white;
